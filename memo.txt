@@ -1,0 +1,5 @@
+npm init -y // package.json 파일 생성됨 - 라이브러리 기록 담겨놓음
+npm install express socket.io moment
+npm install -g nodemon // js파일 변경할때마다 자동으로 서버를 재실행 시켜주기
+                        // -g : global 로 설정하여 모든 프로젝트에서 이루어지도록!
+                        // node app.js가 아닌 nodemon app.js로 해줘야 리스닝이 됨.
