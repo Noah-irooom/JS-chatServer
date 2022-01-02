@@ -3,3 +3,5 @@ npm install express socket.io moment
 npm install -g nodemon // js파일 변경할때마다 자동으로 서버를 재실행 시켜주기
                         // -g : global 로 설정하여 모든 프로젝트에서 이루어지도록!
                         // node app.js가 아닌 nodemon app.js로 해줘야 리스닝이 됨.
+
+$ nodemon app.js - 실행하기 -> localhost:5000으로 접속
